@@ -1,3 +1,4 @@
+Markdown
 # Clusterização de Imóveis - Boston Housing Dataset 🏠
 
 Este repositório contém a solução do exercício prático de Modelos Não Supervisionados (K-Means) desenvolvido para a disciplina de Sistemas Inteligentes Avançados.
@@ -18,3 +19,13 @@ O projeto foi desenvolvido de forma modular e orientada a objetos:
 3. No terminal, navegue até a pasta do projeto e execute:
    ```bash
    python main.py
+O sistema irá preencher eventuais valores nulos (NaN), normalizar os dados, descobrir automaticamente o número ideal de clusters (que resulta em K=3) e exibir o perfil de cada grupo no terminal, além de classificar o imóvel de teste.
+
+📊 Resultados (Perfis dos Clusters)
+O modelo identificou 3 perfis distintos de bairros em Boston:
+
+Cluster 0: Bairros residenciais de alto padrão (Imóveis mais caros, mais quartos, baixa criminalidade).
+
+Cluster 1: Zonas industriais/periféricas (Casas muito antigas, alta poluição, maior índice de criminalidade e imóveis mais baratos).
+
+Cluster 2: Bairros de classe média (Valores intermediários em quase todas as métricas).
